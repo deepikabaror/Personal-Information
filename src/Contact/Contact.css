@@ -1,0 +1,91 @@
+#contact {
+    background-color: #0c0c0c;
+    border-radius: 10px;
+}
+
+#contact h2 {
+    color: #1f9b7c;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: capitalize;
+    padding-right: 75px;
+}
+
+.contact {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+a p {
+    color: #ffff;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+a p:hover{
+    color: #a2f7fa;
+}
+
+.social i {
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 1.5rem;
+}
+
+.icon:hover .fa-phone {
+    color: #4a1f9b;
+}
+
+.icon:hover .fa-instagram {
+    color: #405DE6;
+}
+
+.icon:hover .fa-envelope {
+    color: #228668;
+}
+
+/* .icon:hover .fa-github {
+    color: #8db327;
+}
+.icon:hover .fa-linkedin {
+    color: #405DE6;
+} */
+/* .icon:hover .fa-hackerrank {
+    color: #0e680e;
+} */
+
+/* a p:hover{
+    color: #1f9b3e;
+} */
+
+.endLine {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ---------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .contact {
+        flex-wrap: wrap;
+    }
+}
